@@ -1,0 +1,27 @@
+.news{
+    background-color: #8b8c89;
+    min-height: 100vh;
+}
+
+.small-image {
+    max-width: 130px; 
+    height: auto; 
+}
+
+.news{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container1{
+    background-color: #274c775f;
+}
+
+.container2{
+    background-color: #6096ba5f;
+}
+
+.newstext{
+    color: white;
+}
+
