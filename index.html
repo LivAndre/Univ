@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -15,9 +15,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 
-     <title>University of Bauan</title>
+    <title>University of Bauan</title>
 </head>
 <body>
+  <div class="loading-spinner" id="loadingSpinner">
+    <div class="three-body">
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+    </div>
+</div>
+
     <header class="header" id="header">
         <div class="header-content">
             <h1 class="big-title">University of Bauan</h1>
@@ -54,4 +62,13 @@
     </div>
     <p>&copy; UNIVERSITY OF BAUAN 2023</p>
 </footer>
+<script>
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+        const loadingSpinner = document.getElementById("loadingSpinner");
+        loadingSpinner.style.display = "none";
+    }, 800); 
+});
+
+</script>
 </html>
