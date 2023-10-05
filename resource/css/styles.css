@@ -22,6 +22,16 @@
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-link {
+    transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+    transform: scale(1.1);
 }
 
 .header::before {
@@ -69,17 +79,31 @@
 .big-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 100px;
     margin-bottom: 10px;
     color: #E7ECEF;
+    transition: color 0.3s, text-shadow 0.3s; /* Add transitions for both color and text-shadow */
 }
 
 .small-title {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 40px;
     color: #007bff;
+    transition: color 0.3s, text-shadow 0.3s; 
 }
+
+
+.big-title:hover {
+    color: #007bff; 
+    text-shadow: 0 0 10px rgba(0, 123, 255, 0.8); 
+}
+
+.small-title:hover {
+    color: #E7ECEF; 
+    text-shadow: 0 0 10px rgba(231, 236, 239, 0.8); 
+}
+
 
 /* CSS for the button */
 .button {
