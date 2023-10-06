@@ -21,17 +21,16 @@
     background-color: #274c775f;
     margin-left: 100px;
     border-radius: 30px;
-  box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
-   
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+    max-height: 700px;  
+    overflow-y: auto; 
 }
 
 .container2{
     background-color: #6096ba5f;
     margin-right: 100px;
     border-radius: 30px;
-  box-shadow: 15px 15px 30px #bebebe,
-             -15px -15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
  
 }
 
