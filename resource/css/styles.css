@@ -20,7 +20,7 @@
 }
 
 .navbar a {
-    color: #274C77;
+    color: #0056b3;
 }
 
 .header {
@@ -177,10 +177,11 @@
     position: relative;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Add a soft shadow */
   }
   
   .button:hover {
-    box-shadow: 0.5px 0.5px 150px #252525;
+    transform: scale(1.05); /* Increase size on hover */
   }
   
   .type1::after {
@@ -226,6 +227,7 @@
   .type1:hover::before {
     transform: translateY(-50px) scale(0) rotate(120deg);
   }
+
   
 
 .body {
