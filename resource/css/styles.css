@@ -7,7 +7,11 @@
 
 .news{
     min-height: 100vh;
-    background-color: #8a8b8907;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url("/vendor/images/Universitytag.png");
+    background-position: center ;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
 
 }
 
@@ -18,7 +22,7 @@
 
 
 .container1{
-    background-color: #274c775f;
+    background-color: #274c77;
     margin-left: 100px;
     border-radius: 30px;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
@@ -28,7 +32,7 @@
 }
 
 .container2{
-    background-color: #274c775f;
+    background-color: #274c77;
     margin-right: 100px;
     border-radius: 30px;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
