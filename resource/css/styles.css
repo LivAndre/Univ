@@ -7,7 +7,7 @@
 
 .news{
     min-height: 100vh;
-    background-color: #8a8b8985;
+    background-color: #8a8b8907;
 
 }
 
@@ -24,15 +24,20 @@
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
     max-height: 700px;  
     overflow-y: auto; 
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .container2{
-    background-color: #6096ba5f;
+    background-color: #274c775f;
     margin-right: 100px;
     border-radius: 30px;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
- 
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+.container1:hover, .container2:hover{
+    transform: scale(1.05);
+  }
 
 .newstext{
     color: white;
