@@ -10,12 +10,12 @@
      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
      crossorigin="anonymous">
      <link rel="stylesheet" href="resource/css/styles.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
 
     <title>University of Bauan</title>
+    
 </head>
 <body>
   <div class="loading-spinner" id="loadingSpinner">
@@ -55,20 +55,24 @@
             </div>
           </nav>
     </header>
-</body>
-<footer class="footer">
-    <div class="footer-logo">
-        <img src="resource/css/img/u2.png" alt="Company Logo">
-    </div>
-    <p>&copy; UNIVERSITY OF BAUAN 2023</p>
-</footer>
-<script>
-  window.addEventListener("load", function () {
-    setTimeout(function () {
-        const loadingSpinner = document.getElementById("loadingSpinner");
-        loadingSpinner.style.display = "none";
-    }, 800); 
-});
 
-</script>
+    <footer class="footer">
+        <div class="footer-logo">
+            <img src="resource/css/img/u2.png" alt="Company Logo">
+        </div>
+        <p>&copy; UNIVERSITY OF BAUAN 2023</p>
+    </footer>
+
+    <script>
+      window.addEventListener("load", function () {
+          setTimeout(function () {
+              const loadingSpinner = document.getElementById("loadingSpinner");
+              loadingSpinner.style.display = "none";
+              const contentContainer = document.getElementById("contentContainer");
+              contentContainer.classList.remove("hidden");
+          }, 2000);
+      });
+  </script>
+
+</body>
 </html>
